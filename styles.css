@@ -6,4 +6,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    border-radius: 0;
+    margin: 0px 15px 0px 15px ;
+
+}
+
+.botonesProyectos .botom{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 154, 154);
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.botonesProyectos .botom:hover{
+    height: 50px;
+    background-color: rgb(149, 255, 251);
+
+    text-decoration-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.botonesProyectos .botom a{
+    color: aliceblue;
+    text-decoration: none;
 }
